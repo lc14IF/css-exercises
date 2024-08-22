@@ -1,0 +1,32 @@
+.external {
+    background: red;
+    color: white;
+    font-size: 32px;
+    text-align: center;
+    font-weight: bold;
+}
+body {
+    padding-top: 325px;
+}
+
+body::before {
+    content: "";
+    display: block;
+    background-color: black;
+    height: 320px; /* Height of the solid line */
+    width: 100%;
+    position: absolute;
+    top: 0px; /* Moves the top line down by 20px */
+    left: 0;
+}
+
+body::after {
+    content: "";
+    display: block;
+    background-color: black;
+    height: 350px; /* Height of the solid line */
+    width: 100%;
+    position: absolute;
+    bottom: 0px; /* Moves the bottom line up by 20px */
+    left: 0;
+
