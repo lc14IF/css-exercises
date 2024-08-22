@@ -1,0 +1,41 @@
+.little {
+background-color: #d99e9e;
+font-family: 'Verdana', 'DejaVu Sans', sans-serif
+}
+#blue {
+    color: #0000ff;
+    font-size: 36px;
+}
+#font {
+    font-size: 24px;
+    font-weight: bold;
+}
+.five {
+    background-color: #97e297;
+}
+
+body {
+    padding-top: 350px;
+}
+
+body::before {
+    content: "";
+    display: block;
+    background-color: black;
+    height: 350px; /* Height of the solid line */
+    width: 100%;
+    position: absolute;
+    top: 0px; /* Moves the top line down by 20px */
+    left: 0;
+}
+
+body::after {
+    content: "";
+    display: block;
+    background-color: black;
+    height: 250px; /* Height of the solid line */
+    width: 100%;
+    position: absolute;
+    bottom: 0px; /* Moves the bottom line up by 20px */
+    left: 0;
+}
