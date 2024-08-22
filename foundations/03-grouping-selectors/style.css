@@ -1,0 +1,17 @@
+.me {
+    background-color: black;
+    color: white;
+}
+.no-me {
+    background-color: yellow;
+    color: black;
+}
+.me, .no-me {
+   font-size: 28px;
+   font-style: "Helvetica", "Times New Roman", "sans-serif" 
+}
+
+body {
+    padding-top: 350px;
+    text-align: center;
+} 
